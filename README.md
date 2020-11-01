@@ -30,27 +30,29 @@
 （3）当句子长度大于指定的最大长度，进行裁剪，小于最大长度，在句子前面用PAD进行填充；<br>
 （4）如果句子中的词语在词汇表中没有出现则用UNK进行代替；<br>
 （5）输入到网络中的句子实际上是进行分词后的词语映射的id，比如：<br>
-"""
-    "我喜欢上海",
-    "我喜欢打羽毛球",
-"""
+<br>
+"""<br>
+    "我喜欢上海",<br>
+    "我喜欢打羽毛球",<br>
+"""<br>
 词汇表：['我','喜欢','打','上海','羽毛球']，对应映射：[2,3,4,5,6]，0对应PAD，1对应UNK
-得到：
-[
-    [0,2,3,5],
-    [2,3,4,6],
-]
+<br>
+得到：<br>
+[<br>
+    [0,2,3,5],<br>
+    [2,3,4,6],<br>
+]<br>
 
 ```python
-!python main.py --model rcnn --saver_dir checkpoint/rcnn --save_png images/rcnn  --train True --test True --predict False
+!python main.py --model rcnn --saver_dir checkpoint/rcnn --save_png images/rcnn  --train  --test  --predict 
 ```
 
 参数说明：
  -   --model：选择模型，可选[transformer、bilstm、bilstmattn、textcnn、rcnn]
  -   --saver_dir：模型保存位置，一般是checkpoint+模型名称
  -   --save_png：结果可视化保存位置，一般是images+模型名称
- -   --train：是否进行训练，默认为True
- -   --test：是否进行测试，默认为True
+ -   --train：是否进行训练，默认为False
+ -   --test：是否进行测试，默认为False
  -   --predict：是否进行预测，默认为False
 
 # 结果
