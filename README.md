@@ -154,23 +154,24 @@ Communication       0.19      0.26      0.22        27
 ================================================
 ```python
 
+
 下面是一些实现的对比：
-transformer：
+`transformer`：
      accuracy                           0.86      9833
     macro avg       0.72      0.45      0.46      9833
  weighted avg       0.85      0.86      0.84      9833
-bistm：
+`bistm`：
   accuracy                           0.77      9833
     macro avg       0.47      0.40      0.41      9833
  weighted avg       0.76      0.77      0.76      9833
-bilstmattn：
+`bilstmattn`：
      accuracy                           0.92      9833
     macro avg       0.70      0.64      0.65      9833
  weighted avg       0.93      0.92      0.92      9833
-textrcnn：
+`textrcnn`：
      accuracy                           0.89      9833
     macro avg       0.71      0.46      0.48      9833
  weighted avg       0.88      0.89      0.87      9833
-rcnn：
+`rcnn`：
  
 
