@@ -5,22 +5,22 @@
 
 
 目录结构：
-|--    checkpint：保存模型目录
-        transformer：transformer模型保存位置；
-    config：配置文件；
-        fudanConfig.py：包含训练配置、模型配置、数据集配置；
-        globaConfig.py：全局配置文件，主要是全局路径、全局参数等；
-    data：数据保存位置；
-        Fudan：复旦数据；
-            train：训练数据；
-            answer：测试数据；
-    dataset：创建数据集，对数据进行处理的一些操作；
-    images：结果可视化图片保存位置；
-    models：模型保存文件；
-    process：对原始数据进行处理后的数据；
-    tensorboard：tensorboard可视化文件保存位置，暂时未用到；
-    utils：辅助函数保存位置，包括word2vec训练词向量、评价指标计算、结果可视化等；
-    main.py：主运行文件，选择模型、训练、测试和预测；
+|--checkpint：保存模型目录<br>
+|--|--transformer：transformer模型保存位置；<br>
+|--config：配置文件；<br>
+|--|--fudanConfig.py：包含训练配置、模型配置、数据集配置；<br>
+|--|--globaConfig.py：全局配置文件，主要是全局路径、全局参数等；<br>
+|--   data：数据保存位置；<br>
+|--|--|--Fudan：复旦数据；<br>
+|--|--|--train：训练数据；<br>
+|--|--|--answer：测试数据；<br>
+|--dataset：创建数据集，对数据进行处理的一些操作；<br>
+|--images：结果可视化图片保存位置；<br>
+|--models：模型保存文件；<br>
+|--process：对原始数据进行处理后的数据；<br>
+|--tensorboard：tensorboard可视化文件保存位置，暂时未用到；<br>
+|--utils：辅助函数保存位置，包括word2vec训练词向量、评价指标计算、结果可视化等；<br>
+|--main.py：主运行文件，选择模型、训练、测试和预测；<br>
     
 词嵌入维度：200 学习率：0.001 epoch：50 词汇表大小：6000+2（加2是PAD和UNK） 最大长度：600
 # 说明
