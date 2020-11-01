@@ -162,24 +162,32 @@ Communication       0.19      0.26      0.22        27
 |     accuracy   |          |          |    0.86   |   9833 |
 |    macro avg   |    0.72  |    0.45  |    0.46   |   9833 |
 | weighted avg   |    0.85  |    0.86  |    0.84   |   9833 |
+
 `bistm`：
 |    评价指标     |precision |  recall  |  f1-score | support|  
 |    ----        |   ----   |    ----  |    ----   |    ----|
 |  accuracy      |          |          |    0.77   |   9833 |
 |    macro avg   |    0.47  |    0.40  |    0.41   |   9833 |
 | weighted avg   |    0.76  |    0.77  |    0.76   |   9833 |
+
 `bilstmattn`：
 |    评价指标     |precision |  recall  |  f1-score | support|  
 |    ----        |   ----   |    ----  |    ----   |    ----|
 |     accuracy   |          |          |    0.92   |   9833 |
 |    macro avg   |    0.70  |    0.64  |    0.65   |   9833 |
 | weighted avg   |    0.93  |    0.92  |    0.92   |   9833 |
+
 `textrcnn`：
 |    评价指标     |precision |  recall  |  f1-score | support|  
 |    ----        |   ----   |    ----  |    ----   |    ----|   
 |     accuracy   |          |          |    0.89   |   9833 |
 |    macro avg   |    0.71  |    0.46  |    0.48   |   9833 |
 | weighted avg   |    0.88  |    0.89  |    0.87   |   9833 |
+
 `rcnn`：
-| 
+|    评价指标     |precision |  recall  |  f1-score | support|  
+|    ----        |   ----   |    ----  |    ----   |    ----| 
+|     accuracy   |          |          |    0.16   |   9833 |
+|    macro avg   |    0.01  |    0.05  |    0.02   |   9833 |
+| weighted avg   |    0.04  |    0.16  |    0.05   |   9833 |
 
