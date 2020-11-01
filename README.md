@@ -4,7 +4,7 @@
 数据集下载地址：
 
 
-目录结构：
+目录结构：<br>
 |--checkpint：保存模型目录<br>
 |--|--transformer：transformer模型保存位置；<br>
 |--config：配置文件；<br>
@@ -160,7 +160,7 @@ Communication       0.19      0.26      0.22        27
 ```
 
 
-下面是一些实现的对比：
+下面是一些实现的对比：<br>
 `transformer`：
 |    评价指标     |precision |  recall  |  f1-score | support|  
 |    ----        |   ----   |    ----  |    ----   |    ----|
@@ -196,3 +196,6 @@ Communication       0.19      0.26      0.22        27
 |    macro avg   |    0.01  |    0.05  |    0.02   |   9833 |
 | weighted avg   |    0.04  |    0.16  |    0.05   |   9833 |
 
+十分感谢以下仓库，给了自己很多参考：
+https://github.com/jiangxinyang227/NLP-Project/tree/master/text_classifier
+https://github.com/gaussic/text-classification-cnn-rnn
