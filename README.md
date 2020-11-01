@@ -5,7 +5,7 @@
 
 
 目录结构：
-    checkpint：保存模型目录
+|--    checkpint：保存模型目录
         transformer：transformer模型保存位置；
     config：配置文件；
         fudanConfig.py：包含训练配置、模型配置、数据集配置；
@@ -44,13 +44,14 @@
 ···python
 !python main.py --model rcnn --saver_dir checkpoint/rcnn --save_png images/rcnn  --train True --test True --predict False
 ···
+
 参数说明：
-    --model：选择模型，可选[transformer、bilstm、bilstmattn、textcnn、rcnn]
-    --saver_dir：模型保存位置，一般是checkpoint+模型名称
-    --save_png：结果可视化保存位置，一般是images+模型名称
-    --train：是否进行训练，默认为True
-    --test：是否进行测试，默认为True
-    --predict：是否进行预测，默认为False
+ -   --model：选择模型，可选[transformer、bilstm、bilstmattn、textcnn、rcnn]
+ -   --saver_dir：模型保存位置，一般是checkpoint+模型名称
+ -   --save_png：结果可视化保存位置，一般是images+模型名称
+ -   --train：是否进行训练，默认为True
+ -   --test：是否进行测试，默认为True
+ -   --predict：是否进行预测，默认为False
 
 # 结果
 ```python
