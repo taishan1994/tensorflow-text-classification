@@ -53,6 +53,7 @@
     --predict：是否进行预测，默认为False
 
 # 结果
+```python
 以transformer为例：
 部分训练结果：
 2020-11-01T10:43:16.955322, step: 1300, loss: 5.089711, acc: 0.8546,precision: 0.3990, recall: 0.4061, f_beta: 0.3977 *
@@ -128,6 +129,7 @@ Communication       0.19      0.26      0.22        27
      accuracy                           0.86      9833
     macro avg       0.72      0.45      0.46      9833
  weighted avg       0.85      0.86      0.84      9833
+```
 
 ```python
 进行预测。。。
