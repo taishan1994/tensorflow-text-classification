@@ -22,7 +22,7 @@
 |--main.py：主运行文件，选择模型、训练、测试和预测；<br>
 
 初始配置：<br>
-词嵌入维度：200  
+- 词嵌入维度：200  
 - 学习率：0.001  
 - epoch：50  
 - 词汇表大小：6000+2（加2是PAD和UNK） 
@@ -33,6 +33,14 @@
 环境：<br>
 - python=>=3.6
 - tensorflow==1.15.0
+
+当前支持的模型：<br>
+- bilstm
+- bilstm+attention
+- textcnn
+- rcnn
+- transformer
+
 
 # 说明
 数据的输入格式：<br>
@@ -209,5 +217,5 @@ Communication       0.19      0.26      0.22        27
 | weighted avg   |    0.04  |    0.16  |    0.05   |   9833 |
 
 十分感谢以下仓库，给了自己很多参考：<br>
-https://github.com/jiangxinyang227/NLP-Project/tree/master/text_classifier
+https://github.com/jiangxinyang227/NLP-Project/tree/master/text_classifier <br>
 https://github.com/gaussic/text-classification-cnn-rnn
