@@ -1,7 +1,7 @@
 # tensorflow-text-classification
-基于tensorflow的中文文本分类
-数据集：复旦中文语料，包含20类
-数据集下载地址：
+基于tensorflow的中文文本分类<br>
+数据集：复旦中文语料，包含20类<br>
+数据集下载地址：https://www.kesci.com/mw/dataset/5d3a9c86cf76a600360edd04/content<br>
 
 
 目录结构：<br>
@@ -44,7 +44,7 @@
 ]<br>
 
 ```python
-!python main.py --model rcnn --saver_dir checkpoint/rcnn --save_png images/rcnn  --train  --test  --predict 
+python main.py --model rcnn --saver_dir checkpoint/rcnn --save_png images/rcnn  --train  --test  --predict 
 ```
 
 参数说明：
@@ -189,13 +189,14 @@ Communication       0.19      0.26      0.22        27
 |    macro avg   |    0.71  |    0.46  |    0.48   |   9833 |
 | weighted avg   |    0.88  |    0.89  |    0.87   |   9833 |
 
-`rcnn`：
+`rcnn`：<br>
+很奇怪，rcnn网络并没有得到有效的训练
 |    评价指标     |precision |  recall  |  f1-score | support|  
 |    ----        |   ----   |    ----  |    ----   |    ----| 
 |     accuracy   |          |          |    0.16   |   9833 |
 |    macro avg   |    0.01  |    0.05  |    0.02   |   9833 |
 | weighted avg   |    0.04  |    0.16  |    0.05   |   9833 |
 
-十分感谢以下仓库，给了自己很多参考：
+十分感谢以下仓库，给了自己很多参考：<br>
 https://github.com/jiangxinyang227/NLP-Project/tree/master/text_classifier
 https://github.com/gaussic/text-classification-cnn-rnn
