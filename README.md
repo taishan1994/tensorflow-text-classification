@@ -158,7 +158,7 @@ Communication       0.19      0.26      0.22        27
     macro avg       0.72      0.45      0.46      9833
  weighted avg       0.85      0.86      0.84      9833
 ```
-保结果可视化图片如下：<br>
+结果可视化图片如下：<br>
 ![image-1](https://github.com/taishan1994/tensorflow-text-classification/blob/master/images/transformer/transformer.png)
 
 ```python
