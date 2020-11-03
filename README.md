@@ -1,10 +1,10 @@
 # tensorflow-text-classification
-##基于tensorflow的中文文本分类<br>
+## 基于tensorflow的中文文本分类<br>
 数据集：复旦中文语料，包含20类<br>
 数据集下载地址：https://www.kesci.com/mw/dataset/5d3a9c86cf76a600360edd04/content<br>
 数据集下载好之后将其放置在data文件夹下；<br>
 修改globalConfig.py中的全局路径为自己项目的路径；<br>
-处理后的数据太大，在这里可以下载：<br>
+处理后的数据和已训练好保存的模型，在这里可以下载：<br>
 链接：https://pan.baidu.com/s/1ZHzO5e__-WFYAYFIt2Kmsg 
 提取码：vvzy <br>
 
@@ -69,7 +69,7 @@
 ]<br>
 
 ```python
-python main.py --model rcnn --saver_dir checkpoint/rcnn --save_png images/rcnn  --train  --test  --predict 
+python main.py --model transformer --saver_dir checkpoint/transformer --save_png images/transformer  --train  --test  --predict 
 ```
 
 参数说明：
@@ -158,6 +158,8 @@ Communication       0.19      0.26      0.22        27
     macro avg       0.72      0.45      0.46      9833
  weighted avg       0.85      0.86      0.84      9833
 ```
+保结果可视化图片如下：<br>
+![image-1](https://github.com/taishan1994/tensorflow-text-classification/blob/master/images/transformer/transformer.png)
 
 ```python
 进行预测。。。
